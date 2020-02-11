@@ -1,0 +1,34 @@
+/* Global Reset */
+*{
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+}
+
+/* End of Global Reset */
+
+/* Navbar Section */
+
+.container-xl nav {
+    background-color: #F72311;
+    height: 3.3rem;
+}
+
+
+h3 .card-text {
+    font-size: 20px;
+}
+
+p {
+    font-size: 13px;
+}

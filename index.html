@@ -3,120 +3,168 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newsweel Clone</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/526bcd4356.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./bg-images.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-    <!-- Navbar Section -->
-    <nav>
-        <div class="nav-logo"></div>
-        <ul>
-            <li><a href="#">SIGN IN</a></li>
-            <li><button>SUBSCRIBE<i class="fas fa-chevron-right"></i></button></li>
-            <li><a href="#"><i class="fas fa-align-justify"></i></a></li>
-        </ul>
-    </nav>
-
+    <header>
+        <!-- Navbar Section -->
+        <div class="container-xl px-0">
+            <nav>
+                <div class="nav-logo"></div>
+                <ul>
+                    <li><a href="#">SIGN IN</a></li>
+                    <li><button>SUBSCRIBE<i class="fas fa-chevron-right"></i></button></li>
+                    <li><a href="#"><i class="fas fa-align-justify"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <!-- Main Page Container -->
 
-    <main class="container">
+    <main class="container px-0 mt-1">
 
         <!-- Top Article Section -->
-        <h3 class="text-left ml-2">TOP STORY</h3>
-        <div class="img-container"></div>
-        <h3>Pete Buttigieg Closes Gap on Bernie Sanders in New Hampshire: Poll</h3>
-        <p>The final 7 News/Emerson College poll shows Sanders ahead with 30 percent support and Buttigieg on 23
-            percent.
-        </p>
+        <div class="container px-0">
+            <div class="card border-0 px-0">
+                <div class="card-body">
+                    <h6 class="card-title text-muted">TOP STORY</h6>
+                    <img src="https://d.newsweek.com/en/full/1566054/pete-buttigieg-bernie-sanders-new-hampshire-primary.webp?w=591&h=364&f=dc2634ba4deda3dd7d8314ee33705dac"
+                        class="card-img-top mt-1" alt="">
+                    <div class="card-body px-0 py-1">
+                        <h3 class="card-text font-weight-bold">Pete Buttigieg Closes Gap on Bernie Sanders in New
+                            Hampshire: Poll</h3>
+                        <p class="card-text text-muted">The final 7 News/Emerson College poll shows Sanders ahead with
+                            30
+                            percent
+                            support and
+                            Buttigieg
+                            on 23
+                            percent.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- More Stories Section -->
         <section class="more-stories">
+            <div class="container px-4">
+                <h6 class="text-muted display-">MORE STORIES</h6>
+                <hr>
+                <article>
+                    <div class="card border-0 mb-1 py-0">
+                        <div class="row no-gutters">
+                            <div class="col-6 p-0 m-0">
+                                <img src="https://www.newsweek.com/us-military-identifies-two-special-operation-soldiers-killed-afghanistan-combat-1486457"
+                                    class="card-img" alt="">
+                            </div>
+                            <div class="col-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Military Identifies Special Operation Soldiers Killed in
+                                        Afghanistan Combat</h4>
+                                        <p class="card-text">The two officers were part of a group of U.S. personnel
+                                            from the 3rd
+                                            Battalion,
+                                            7th
+                                            Special
+                                            Forces
+                                            Group and members of the allied Afghan Special Operations Forces.
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </article>
 
-            <h2>MORE STORIES</h2>
-            <article>
-                <div class="img-article"></div>
-                <h2>Military Identifies Special Operation Soldiers Killed in Afghanistan Combat</h4>
-                    <p>The two officers were part of a group of U.S. personnel from the 3rd Battalion, 7th Special
-                        Forces
-                        Group and members of the allied Afghan Special Operations Forces.</p>
-            </article>
+                <article>
+                    <div class="img2-article"></div>
+                    <h4>Biden Says He'd 'Work Like Hell' for Bernie Sanders If He Wins Nomination</h4>
+                    <p>The presidential candidate noted that it's his own campaign that will bring out black voters and
+                        propel him to victory.</p>
+                </article>
 
-            <article>
-                <div class="img2-article"></div>
-                <h4>Biden Says He'd 'Work Like Hell' for Bernie Sanders If He Wins Nomination</h4>
-                <p>The presidential candidate noted that it's his own campaign that will bring out black voters and
-                    propel him to victory.</p>
-            </article>
+                <article>
+                    <div class="img3-article"></div>
+                    <h4>Man Plows Van Through Voter Registration Tent Narrowly Missing Volunteers</h4>
+                    <p>Gregory Timm, 27, was charged with aggravated assault after the incident at the Kernan Village
+                        shopping center in Jacksonville, Florida.</p>
+                </article>
 
-            <article>
-                <div class="img3-article"></div>
-                <h4>Man Plows Van Through Voter Registration Tent Narrowly Missing Volunteers</h4>
-                <p>Gregory Timm, 27, was charged with aggravated assault after the incident at the Kernan Village
-                    shopping center in Jacksonville, Florida.</p>
-            </article>
+                <article>
+                    <div class="img4-article"></div>
+                    <h4>Two NYPD Officers Shot in Targeted Attacks Within 12 Hours</h4>
+                    <p>"I want New Yorkers to be clear, this was an attempt to assassinate police officers," Mayor de
+                        Blasio
+                        said following the first incident.</p>
+                </article>
 
-            <article>
-                <div class="img4-article"></div>
-                <h4>Two NYPD Officers Shot in Targeted Attacks Within 12 Hours</h4>
-                <p>"I want New Yorkers to be clear, this was an attempt to assassinate police officers," Mayor de Blasio
-                    said following the first incident.</p>
-            </article>
+                <article>
+                    <div class="img5-article"></div>
+                    <h4>Bernie Sanders Dismisses Concerns That Democrats Tried to Hurt Him in Iowa</h4>
+                    <p>"There are a lot of people in the Democratic establishment who are not–to say the
+                        least–enthusiastic
+                        about Bernie Sanders," the presidential candidate said.</p>
+                </article>
 
-            <article>
-                <div class="img5-article"></div>
-                <h4>Bernie Sanders Dismisses Concerns That Democrats Tried to Hurt Him in Iowa</h4>
-                <p>"There are a lot of people in the Democratic establishment who are not–to say the least–enthusiastic
-                    about Bernie Sanders," the presidential candidate said.</p>
-            </article>
+                <article>
+                    <div class="img6-article"></div>
+                    <h4>Janelle Monae Channels Mr. Rogers, Calls Out Lack of Diversity at Oscars</h4>
+                    <p>The Oscars 2020 opened with Janelle Monae performing a song featuring references to the lack of
+                        black
+                        actors and female directors nominated by the Academy.</p>
+                </article>
 
-            <article>
-                <div class="img6-article"></div>
-                <h4>Janelle Monae Channels Mr. Rogers, Calls Out Lack of Diversity at Oscars</h4>
-                <p>The Oscars 2020 opened with Janelle Monae performing a song featuring references to the lack of black
-                    actors and female directors nominated by the Academy.</p>
-            </article>
+                <article>
+                    <div class="img7-article"></div>
+                    <h4>Facebook Removes Profile of Soldier Who Carried Out Thailand Mass Shooting</h4>
+                    <p>Sgt. Maj. Jakrapanth Thomma gunned down 26 people and injured 57 others in a shooting spree in
+                        the
+                        city of Nakhon Ratchasima before police shot him dead, authorities said.</p>
+                </article>
 
-            <article>
-                <div class="img7-article"></div>
-                <h4>Facebook Removes Profile of Soldier Who Carried Out Thailand Mass Shooting</h4>
-                <p>Sgt. Maj. Jakrapanth Thomma gunned down 26 people and injured 57 others in a shooting spree in the
-                    city of Nakhon Ratchasima before police shot him dead, authorities said.</p>
-            </article>
+                <article>
+                    <div class="img8-article"></div>
+                    <h4>South Bend Councilman Accuses Buttigieg of Perpetuating 'Systematic Racism'</h4>
+                    <p>Henry Davis Jr. has repeatedly criticized presidential candidate Buttigieg's record on race and
+                        his
+                        management of the South Bend police.</p>
+                </article>
 
-            <article>
-                <div class="img8-article"></div>
-                <h4>South Bend Councilman Accuses Buttigieg of Perpetuating 'Systematic Racism'</h4>
-                <p>Henry Davis Jr. has repeatedly criticized presidential candidate Buttigieg's record on race and his
-                    management of the South Bend police.</p>
-            </article>
+                <article>
+                    <div class="img9-article"></div>
+                    <h4>DNC Chair Rejects Calls to Resign, Hints That Iowa May Lose 1st Caucus</h4>
+                    <p>Perez rebuffed critics calling for his resignation in the wake of the Iowa caucus debacle, and
+                        hinted
+                        that the Midwest state may lose its privilege to host the country's first presidential caucus.
+                    </p>
+                </article>
 
-            <article>
-                <div class="img9-article"></div>
-                <h4>DNC Chair Rejects Calls to Resign, Hints That Iowa May Lose 1st Caucus</h4>
-                <p>Perez rebuffed critics calling for his resignation in the wake of the Iowa caucus debacle, and hinted
-                    that the Midwest state may lose its privilege to host the country's first presidential caucus.</p>
-            </article>
+                <article>
+                    <div class="img10-article"></div>
+                    <h4>Journalists, Celebs Defend Gayle King After Interview Backlash</h4>
+                    <p>"You come for [Gayle King], you come against an army," Susan Rice wrote. 'You will lose, and it
+                        won't
+                        be pretty."</p>
+                </article>
 
-            <article>
-                <div class="img10-article"></div>
-                <h4>Journalists, Celebs Defend Gayle King After Interview Backlash</h4>
-                <p>"You come for [Gayle King], you come against an army," Susan Rice wrote. 'You will lose, and it won't
-                    be pretty."</p>
-            </article>
-
-            <article>
-                <div class="img11-article"></div>
-                <h4>Switzerland Advances Approval of Anti-Discrimination Laws for LGBTQ People</h4>
-                <p>The Swiss people took to the ballots on Sunday to decide whether or not to extend anti-racism rights
-                    to the LGBTQ community.</p>
-            </article>
+                <article>
+                    <div class="img11-article"></div>
+                    <h4>Switzerland Advances Approval of Anti-Discrimination Laws for LGBTQ People</h4>
+                    <p>The Swiss people took to the ballots on Sunday to decide whether or not to extend anti-racism
+                        rights
+                        to the LGBTQ community.</p>
+                </article>
+            </div>
         </section>
 
         <!-- Culture & Travel Section -->

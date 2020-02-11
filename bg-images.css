@@ -1,3 +1,11 @@
+.pic-position {
+    width: 100%;
+    height: 20rem;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* Navbar Section */
 
 .nav-logo {
@@ -7,7 +15,8 @@
 /* Top Article Section  */
 
 .container .img-container {
-    background-image: url('https://d.newsweek.com/en/full/1566054/pete-buttigieg-bernie-sanders-new-hampshire-primary.webp?w=591&h=364&f=dc2634ba4deda3dd7d8314ee33705dac');
+    /* background-image: url('https://d.newsweek.com/en/full/1566054/pete-buttigieg-bernie-sanders-new-hampshire-primary.webp?w=591&h=364&f=dc2634ba4deda3dd7d8314ee33705dac'); */
+    background-color: aqua;
 }
 
 /* More Stories Section */
