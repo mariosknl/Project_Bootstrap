@@ -25,10 +25,18 @@ a {
 }
 
 
-h3 .card-text {
-    font-size: 20px;
+.card-title {
+    font-size: 16px;
+    
 }
 
 p {
-    font-size: 13px;
+    font-size: 0.8rem;
+}
+
+.travel h3 {
+    font-size: 1.1rem;
+}
+h3 a{
+    font-size: 1.1rem;
 }
