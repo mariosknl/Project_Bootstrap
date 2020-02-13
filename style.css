@@ -18,11 +18,17 @@ a {
 /* End of Global Reset */
 
 /* Navbar Section */
-.header-top {
-    height: 95px;
+header {
+    height: 100px;
 }
 
+.middle {
+    height: 3000px;
+}
 
+.header-bottom{
+    height: 50px;
+}
 
 .card-title {
     font-size: 16px;
