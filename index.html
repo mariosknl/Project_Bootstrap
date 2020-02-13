@@ -12,24 +12,24 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
+<body class="bg-light">
 
     <header>
         <nav
             class="navbar nav-top navbar-expand-xl bg-danger text-white fixed-xs-top d-flex justify-content-between align-items-end pb-3">
-            <p>Thu, Feb 13, 2020 </p>
+            <p class="">Thu, Feb 13, 2020 </p>
             <a class="navbar-brand text-white font-weight-bold nav-item nav-link ml-5 pl-5" href="#">Newsweek</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"><span
                     class="navbar-toggler-icon"></span></span></button>
             <div class="navbar-nav d-flex flex-row">
-                <a class="nav-item nav-link text-white font-weight-bold px-3 mx-0" href="#">SIGN IN</a>
-                <button type="button" class="btn btn-xs bg-white text-danger m-0 px-1 py-0">SUBSCRIBE</button>
+                <a class="nav-item nav-link text-white font-weight-bold" href="#">SIGN IN</a>
+                <button type="button" class="btn btn-xs bg-white text-danger m-0 px-1 py-0">SUBSCRIBE<i
+                        class="fas fa-chevron-right ml-3"></i></button>
             </div>
         </nav>
-    </header>
-    <div class="container-fluid">
+
         <nav class="header-bottom navbar">
-            <div class="navbar collapse navbar-collapse p-0 m-0 font-weight-bold" id="navbarMenu">
+            <div class="navbar navbar-collapse p-0 m-0 font-weight-bold" id="navbarMenu">
                 <a class="nav-item nav-link border-right">U.S.</li></a>
                 <a class="nav-item nav-link border-right">World</li></a>
                 <a class="nav-item nav-link border-right">Business</li></a>
@@ -43,20 +43,19 @@
                 <a class="nav-item nav-link">Weather</li></a>
                 <a class="nav-item nav-link">Search<i class="fas fa-search ml-2"></i></a>
                 </ul>
-            </div>
-
         </nav>
-    </div>
+    </header>
+
 
 
 
     <!-- Main Page Container -->
-    <hr class="px-0 py-2 mx-0 my-2">
-    <main class="container p-0 m-0">
+
+    <main class="container-xl m-auto bg-light">
         <div class="row no-gutters">
             <!-- Top Article Section -->
-            <section class="col-xl-5 order-1 my-0 py-0 middle">
-                <div class="card border-0 my-0 py-0">
+            <section class="col-xl-5 order-1 my-0 py-0">
+                <div class="card border-0 m-auto py-0">
                     <div class="card-body">
                         <h6 class="card-title text-muted my-0 py-0">TOP STORY</h6>
                         <img src="https://d.newsweek.com/en/full/1566054/pete-buttigieg-bernie-sanders-new-hampshire-primary.webp?w=591&h=364&f=dc2634ba4deda3dd7d8314ee33705dac"
@@ -83,7 +82,7 @@
                 <!-- More Stories Section -->
                 <section>
 
-                    <div class="container px-4">
+                    <div class="container">
                         <h6 class="text-muted">MORE STORIES</h6>
                         <hr>
                         <article>
@@ -443,7 +442,7 @@
                 <!-- Culture & Travel Section -->
                 <section>
 
-                    <div class="container px-4 py-0">
+                    <div class="container">
 
                         <article class="bg-light py-2">
                             <div class="card border-0 bg-light">
@@ -531,7 +530,7 @@
             <!-- Featured Stories Section -->
             <section class="col-xl-4">
 
-                <div class="container px-0">
+                <div class="container sticky-top">
 
                     <article>
                         <div class="card border-0 px-0 m-0">
@@ -576,22 +575,25 @@
                             </div>
                         </div>
                     </article>
-                    <div class="card border-0 px-0 m-0">
-                        <div class="card-body">
-                            <img src="https://d.newsweek.com/en/full/1566004/mitt-romney.webp?w=767&h=512&q=90&f=8f4260392d2df99bfa918884f9848fa3"
-                                class="card-img-top" alt="">
-                            <div class="card-body p-0 m-0">
-                                <h3 class="card-text"><a class="card-link" href="#">Fox News Host Calls Romney an
-                                        'Embarrassment'</a></h3>
-                                <p class="card-text text-muted">"How dare he!" Jeanine Pirro complained. "How could he?
-                                    And
-                                    why would he?"</p>
+
+                    <article>
+                        <div class="card border-0 px-0 m-0">
+                            <div class="card-body">
+                                <img src="https://d.newsweek.com/en/full/1566004/mitt-romney.webp?w=767&h=512&q=90&f=8f4260392d2df99bfa918884f9848fa3"
+                                    class="card-img-top" alt="">
+                                <div class="card-body p-0 m-0">
+                                    <h3 class="card-text"><a class="card-link" href="#">Fox News Host Calls Romney an
+                                            'Embarrassment'</a></h3>
+                                    <p class="card-text text-muted">"How dare he!" Jeanine Pirro complained. "How could
+                                        he?
+                                        And
+                                        why would he?"</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </article>
 
-                    <article class="img4-featured">
+                    <article>
                         <div class="card border-0 px-0 m-0">
                             <div class="card-body">
                                 <img src="https://d.newsweek.com/en/full/1565994/cannabis-planet.webp?w=767&h=512&q=90&f=4bf516ea8482c0af696a045a118f8abd"
@@ -608,15 +610,17 @@
                             </div>
                         </div>
                     </article>
+
                 </div>
+
             </section>
 
             <!-- Opinion Section -->
             <section class="col-xl-3 order-12">
 
-                <div class="container px-3">
+                <div class="container">
                     <h6 class="text-muted">OPINION</h6>
-                    <div class="card border-0 m-0 p-0">
+                    <div class="card border-0">
                         <div class="row no-gutters">
                             <div class="col-2">
                                 <img src="https://d.newsweek.com/en/full/1566038/benny-johnson.webp?w=63&h=63&f=0ddbb947c290dd32e615e08bfbea62a0"
@@ -734,410 +738,443 @@
                             </div>
                         </div>
                     </div>
+
+
+
+                    <!-- Latest News Section -->
+                    <section class="latest-news">
+
+                        <div class="container sticky-top">
+                            <h6 class="text-muted">LATEST NEWS</h6>
+                            <div class="row no-giutter">
+
+                                <article>
+                                    <div class="card border-0 mb-4 py-0">
+                                        <div class="row no-gutters">
+                                            <div class="col-6 p-0 m-0">
+                                                <img src="https://d.newsweek.com/en/full/1566053/bong-joon-ho.webp?w=767&h=512&f=f7d671df9f770cdfc4be9e3fea521cc9"
+                                                    class="card-img" alt="">
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="card-body py-0">
+                                                    <p class="card-title h5"><strong>'I'm Ready to Drink Tonight' Wins
+                                                            The
+                                                            Internet
+                                                            For
+                                                            Oscar Speeches Sunday</strong></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article>
+                                    <div class="card border-0 my-4 py-0">
+                                        <div class="row no-gutters">
+                                            <div class="col-6 p-0 m-0">
+                                                <img src="https://d.newsweek.com/en/full/1562296/power-season-6-tasha.webp?w=767&h=512&f=38ceacf3e5fafe70f2d2e75c866467a6"
+                                                    class="card-img" alt="">
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="card-body py-0">
+                                                    <p class="card-title h5"><strong>How Tasha St. Patrick Might Appear
+                                                            in
+                                                            'Power
+                                                            Book
+                                                            II: Ghost'</strong></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article>
+                                    <div class="card border-0 my-4 py-0">
+                                        <div class="row no-gutters">
+                                            <div class="col-6 p-0 m-0">
+                                                <img src="https://d.newsweek.com/en/full/1563452/power-prequel-ghost-tommy-angela.webp?w=767&h=512&f=a58d22cce3604cadc8f0649f1814107d"
+                                                    class="card-img" alt="">
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="card-body py-0">
+                                                    <p class="card-title h5"><strong>'Power' Season 6, Episode 15: How
+                                                            the
+                                                            Mid-Credits
+                                                            Scene Sets Up the Prequel</strong></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article>
+                                    <div class="card border-0 my-4 py-0">
+                                        <div class="row no-gutters">
+                                            <div class="col-6 p-0 m-0">
+                                                <img src="https://d.newsweek.com/en/full/1566050/xfl-st-louis-battlehawks.webp?w=767&h=512&f=6a0bdc8ddef8b31a9b403e12f160bf4a"
+                                                    class="card-img" alt="">
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="card-body py-0">
+                                                    <p class="card-title h5"><strong>Troy Aikman Says Which XFL Rules
+                                                            Would
+                                                            Translate
+                                                            Into the NFL</strong></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article>
+                                    <div class="card border-0 my-4 py-0">
+                                        <div class="row no-gutters">
+                                            <div class="col-6 p-0 m-0">
+                                                <img src="https://d.newsweek.com/en/full/1565692/cast-lily-dare.webp?w=767&h=512&f=2ad14b4add1f254a7ed21e214bfadd15"
+                                                    class="card-img" alt="">
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="card-body py-0">
+                                                    <p class="card-title h5"><strong>For Charles Busch in 'Lily Dare'
+                                                            off-Broadway
+                                                            Life's a Drag and That's Good</strong></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article>
+                                    <div class="card border-0 my-4 py-0">
+                                        <div class="row no-gutters">
+                                            <div class="col-6 p-0 m-0">
+                                                <img src="https://d.newsweek.com/en/full/1566042/rupauls-dragcon-uk.webp?w=767&h=512&f=f51a97135f872af3313a656f3abdd2a8"
+                                                    class="card-img" alt="">
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="card-body py-0">
+                                                    <p class="card-title h5"><strong>'SNL' Sketch Echoes Drag Queen
+                                                            Story
+                                                            Hour
+                                                            Controversies</strong></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article>
+                                    <div class="card border-0 my-4 py-0">
+                                        <div class="row no-gutters">
+                                            <div class="col-6 p-0 m-0">
+                                                <img src="https://d.newsweek.com/en/full/1566036/brian-stelter-rush-limbaugh-cancer.webp?w=767&h=512&f=82836f4dc5ae9a4afa8a63b8a5fc5205"
+                                                    class="card-img" alt="">
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="card-body py-0">
+                                                    <p class="card-title h5"><strong>Brian Stelter Blasts 'Lefties Who
+                                                            Hate
+                                                            Rush'
+                                                            Limbaugh Over Cancer Comments</strong></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-
-
-                <!-- Latest News Section -->
-                <section class="latest-news">
-                    <div class="container px-4 mt-4">
-                        <h6 class="text-muted">LATEST NEWS</h6>
-
-                        <article>
-                            <div class="card border-0 mb-4 py-0">
-                                <div class="row no-gutters">
-                                    <div class="col-6 p-0 m-0">
-                                        <img src="https://d.newsweek.com/en/full/1566053/bong-joon-ho.webp?w=767&h=512&f=f7d671df9f770cdfc4be9e3fea521cc9"
-                                            class="card-img" alt="">
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="card-body py-0">
-                                            <p class="card-title h5"><strong>'I'm Ready to Drink Tonight' Wins The
-                                                    Internet
-                                                    For
-                                                    Oscar Speeches Sunday</strong></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article>
-                            <div class="card border-0 my-4 py-0">
-                                <div class="row no-gutters">
-                                    <div class="col-6 p-0 m-0">
-                                        <img src="https://d.newsweek.com/en/full/1562296/power-season-6-tasha.webp?w=767&h=512&f=38ceacf3e5fafe70f2d2e75c866467a6"
-                                            class="card-img" alt="">
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="card-body py-0">
-                                            <p class="card-title h5"><strong>How Tasha St. Patrick Might Appear in
-                                                    'Power
-                                                    Book
-                                                    II: Ghost'</strong></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article>
-                            <div class="card border-0 my-4 py-0">
-                                <div class="row no-gutters">
-                                    <div class="col-6 p-0 m-0">
-                                        <img src="https://d.newsweek.com/en/full/1563452/power-prequel-ghost-tommy-angela.webp?w=767&h=512&f=a58d22cce3604cadc8f0649f1814107d"
-                                            class="card-img" alt="">
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="card-body py-0">
-                                            <p class="card-title h5"><strong>'Power' Season 6, Episode 15: How the
-                                                    Mid-Credits
-                                                    Scene Sets Up the Prequel</strong></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article>
-                            <div class="card border-0 my-4 py-0">
-                                <div class="row no-gutters">
-                                    <div class="col-6 p-0 m-0">
-                                        <img src="https://d.newsweek.com/en/full/1566050/xfl-st-louis-battlehawks.webp?w=767&h=512&f=6a0bdc8ddef8b31a9b403e12f160bf4a"
-                                            class="card-img" alt="">
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="card-body py-0">
-                                            <p class="card-title h5"><strong>Troy Aikman Says Which XFL Rules Would
-                                                    Translate
-                                                    Into the NFL</strong></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article>
-                            <div class="card border-0 my-4 py-0">
-                                <div class="row no-gutters">
-                                    <div class="col-6 p-0 m-0">
-                                        <img src="https://d.newsweek.com/en/full/1565692/cast-lily-dare.webp?w=767&h=512&f=2ad14b4add1f254a7ed21e214bfadd15"
-                                            class="card-img" alt="">
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="card-body py-0">
-                                            <p class="card-title h5"><strong>For Charles Busch in 'Lily Dare'
-                                                    off-Broadway
-                                                    Life's a Drag and That's Good</strong></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article>
-                            <div class="card border-0 my-4 py-0">
-                                <div class="row no-gutters">
-                                    <div class="col-6 p-0 m-0">
-                                        <img src="https://d.newsweek.com/en/full/1566042/rupauls-dragcon-uk.webp?w=767&h=512&f=f51a97135f872af3313a656f3abdd2a8"
-                                            class="card-img" alt="">
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="card-body py-0">
-                                            <p class="card-title h5"><strong>'SNL' Sketch Echoes Drag Queen Story Hour
-                                                    Controversies</strong></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article>
-                            <div class="card border-0 my-4 py-0">
-                                <div class="row no-gutters">
-                                    <div class="col-6 p-0 m-0">
-                                        <img src="https://d.newsweek.com/en/full/1566036/brian-stelter-rush-limbaugh-cancer.webp?w=767&h=512&f=82836f4dc5ae9a4afa8a63b8a5fc5205"
-                                            class="card-img" alt="">
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="card-body py-0">
-                                            <p class="card-title h5"><strong>Brian Stelter Blasts 'Lefties Who Hate
-                                                    Rush'
-                                                    Limbaugh Over Cancer Comments</strong></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                </section>
             </section>
         </div>
 
+
         <!-- See all Features Section -->
-
-
-        <div class="container px-4 mt-2">
-            <img src="https://d.newsweek.com/en/full/1564924/february-14-2020-cover.webp?w=726&h=969&q=90&f=13509e0d0d308974f203fb9e68b96335"
-                class="img-fluid" alt="">
-            <p class="text-center bg-light py-2 h6"><strong>SEE ALL FEATURES<i class="fas fa-chevron-right pl-2"></i>
-            </p>
-        </div>
-
-        <!-- In The Magazine Section -->
-        <section class="magazine">
-            <div class="container px-4 mt-2">
-
-
-                <article>
-                    <div class="card border-0">
+        <div class="container-xl-12 m-auto">
+            <div class="row">
+                <div class="col-xl-3">
+                    <img src="https://d.newsweek.com/en/full/1564924/february-14-2020-cover.webp?w=726&h=969&q=90&f=13509e0d0d308974f203fb9e68b96335"
+                        class="img-fluid" alt="">
+                    <p class="text-center bg-light py-2 h6"><strong>SEE ALL FEATURES<i
+                                class="fas fa-chevron-right pl-2"></i></strong>
+                    </p>
+                </div>
+                <!-- In The Magazine Section -->
+                <section class="col-xl-9">
+                    <article class="col-xl-4">
                         <p class="card-title text-center h5 mt-4"><strong>IN THE MAGAZINE</strong></p>
-                        <img src="https://d.newsweek.com/en/full/1564635/fe-coronavirus-01-1197308539.webp?w=767&h=512&l=46&t=49&q=90&f=af8e42fab7d4e164a79d44ade7fe88f9"
-                            class="card-img" alt="">
-                        <div class="card-body px-0 py-2">
-                            <p class="card-title h5 bg-danger py-1 px-1 text-white btn"><strong>COVER</strong></p>
-                            <p class="card-title h5 bg-white py-1 text-danger btn"><strong>WORLD</strong></p>
-                            <p class="card-body p-0"><a href="#"><strong>Coronavirus Outbreak Is A Wake-Up Call
-                                        Showing How
-                                        Unprepared We Are</strong></a>
-                            </p>
+                        <div class="card border-0">
+                            <img src="https://d.newsweek.com/en/full/1564635/fe-coronavirus-01-1197308539.webp?w=767&h=512&l=46&t=49&q=90&f=af8e42fab7d4e164a79d44ade7fe88f9"
+                                class="card-img" alt="">
+                            <div class="card-body px-0 py-2">
+                                <p class="card-title h5 bg-danger py-1 px-1 text-white btn"><strong>COVER</strong>
+                                </p>
+                                <p class="card-title h5 bg-white py-1 text-danger btn"><strong>WORLD</strong></p>
+                                <p class="card-body p-0"><a href="#"><strong>Coronavirus Outbreak Is A Wake-Up Call
+                                            Showing How
+                                            Unprepared We Are</strong></a>
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
 
-                <article>
-                    <div class="card border-0">
-                        <img src="https://d.newsweek.com/en/full/1564166/fea-wargames-01.webp?w=767&h=512&l=48&t=56&q=90&f=7f26e4606b75d1d2a1b2046aa5c9298e"
-                            class="card-img" alt="">
-                        <div class="card-body px-0 py-2">
-                            <p class="card-title h5 bg-danger p-1 text-white btn"><strong>FEATURES</strong></p>
-                            <p class="card-title h5 bg-white py-1 text-danger btn"><strong>WORLD</strong></p>
-                            <p class="card-body p-0"><a href="#"><strong>While Everyone Focuses On Iran, US Military
-                                        Prepares For Russia</strong></a>
-                            </p>
+                    <article class="col-xl-4">
+                        <div class="card border-0">
+                            <img src="https://d.newsweek.com/en/full/1564166/fea-wargames-01.webp?w=767&h=512&l=48&t=56&q=90&f=7f26e4606b75d1d2a1b2046aa5c9298e"
+                                class="card-img" alt="">
+                            <div class="card-body px-0 py-2">
+                                <p class="card-title h5 bg-danger p-1 text-white btn"><strong>FEATURES</strong></p>
+                                <p class="card-title h5 bg-white py-1 text-danger btn"><strong>WORLD</strong></p>
+                                <p class="card-body p-0"><a href="#"><strong>While Everyone Focuses On Iran, US
+                                            Military
+                                            Prepares For Russia</strong></a>
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
 
-                <article>
-                    <div class="card border-0">
-                        <img src="https://d.newsweek.com/en/full/1564921/per-kobe-banner.webp?w=767&h=512&l=50&t=45&q=90&f=e9be0a78cd1efe6a04f42c9370736aee"
-                            class="card-img" alt="">
-                        <div class="card-body px-0 py-2">
-                            <p class="card-title h5 bg-danger p-1 text-white btn">PERISCOPE</p>
-                            <p class="card-title h5 bg-white py-1 text-danger btn"><strong>SPORTS</strong></p>
-                            <p class="card-body p-0 "><a class="card-link" href="#"><strong>Kobe Bryant On
-                                        Parenting,
-                                        Taylor Swift And Life After Basketball</a></strong></p>
+                    <article class="col-xl-4">
+                        <div class="card border-0">
+                            <img src="https://d.newsweek.com/en/full/1564921/per-kobe-banner.webp?w=767&h=512&l=50&t=45&q=90&f=e9be0a78cd1efe6a04f42c9370736aee"
+                                class="card-img" alt="">
+                            <div class="card-body px-0 py-2">
+                                <p class="card-title h5 bg-danger p-1 text-white btn">PERISCOPE</p>
+                                <p class="card-title h5 bg-white py-1 text-danger btn"><strong>SPORTS</strong></p>
+                                <p class="card-body p-0 "><a class="card-link" href="#"><strong>Kobe Bryant On
+                                            Parenting,
+                                            Taylor Swift And Life After Basketball</a></strong></p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
 
-                <article>
-                    <div class="card border-0">
-                        <img src="https://d.newsweek.com/en/full/1563948/united.webp?w=767&h=512&q=90&f=2b98112c96caa917f6f1026b11fd6a44"
-                            class="card-img" alt="">
-                        <div class="card-body px-0 py-2">
-                            <p class="card-title h5 bg-danger p-1 text-white btn">PERISCOPE</p>
-                            <p class="card-title h5 bg-white py-1 text-danger btn"><strong>CULTURE</strong></p>
-                            <p class="card-body p-0"><a class="card-link" href="#">The Top Three
-                                    Airlines Used for ICE Deportations to Central America in 2019</a>
-                            </p>
+                    <article class="col-xl-3">
+                        <div class="card border-0">
+                            <img src="https://d.newsweek.com/en/full/1563948/united.webp?w=767&h=512&q=90&f=2b98112c96caa917f6f1026b11fd6a44"
+                                class="card-img" alt="">
+                            <div class="card-body px-0 py-2">
+                                <p class="card-title h5 bg-danger p-1 text-white btn">PERISCOPE</p>
+                                <p class="card-title h5 bg-white py-1 text-danger btn"><strong>CULTURE</strong></p>
+                                <p class="card-body p-0"><a class="card-link" href="#">The Top Three
+                                        Airlines Used for ICE Deportations to Central America in 2019</a>
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
 
-                <article>
-                    <div class="card border-0">
-                        <img src="https://d.newsweek.com/en/full/1564968/cul-map-undergroundsubways-06-157155767.webp?w=767&h=512&q=90&f=00d097b9f91c07a5b6350b546183666f"
-                            class="card-img" alt="">
-                        <div class="card-body px-0 py-2">
-                            <p class="card-title h5 bg-danger p-1 text-white btn">PERISCOPE</p>
-                            <p class="card-title h5 bg-white py-1 text-danger btn"><strong>CULTURE</strong></p>
-                            <p class="card-body p-0"><a class="card-link" href="#">Subway Stations That Will Stop
-                                    You in
-                                    Your Tracks</a>
-                            </p>
+                    <article class="col-xl-3">
+                        <div class="card border-0">
+                            <img src="https://d.newsweek.com/en/full/1564968/cul-map-undergroundsubways-06-157155767.webp?w=767&h=512&q=90&f=00d097b9f91c07a5b6350b546183666f"
+                                class="card-img" alt="">
+                            <div class="card-body px-0 py-2">
+                                <p class="card-title h5 bg-danger p-1 text-white btn">PERISCOPE</p>
+                                <p class="card-title h5 bg-white py-1 text-danger btn"><strong>CULTURE</strong></p>
+                                <p class="card-body p-0"><a class="card-link" href="#">Subway Stations That Will
+                                        Stop
+                                        You in
+                                        Your Tracks</a>
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
 
-                <article>
-                    <div class="card border-0">
-                        <img src="https://d.newsweek.com/en/full/1564972/cul-ps-stephaniebeatriz-banner.webp?w=767&h=512&q=90&f=23c2390415acdd886843352e067a3453"
-                            class="card-img" alt="">
-                        <div class="card-body px-0 py-2">
-                            <p class="card-title h5 bg-danger p-1 text-white btn">PERISCOPE</p>
-                            <p class="card-title h5 bg-white py-1 text-danger btn"><strong>CULTURE</strong></p>
-                            <p class="card-body p-0"><a class="card-link" href="#">Brooklyn Nine-Nine's Stephanie
-                                    Beatriz Talks Being Bisexual and Latinx on Network TV</a>
-                            </p>
+                    <article class="col-xl-3">
+                        <div class="card border-0">
+                            <img src="https://d.newsweek.com/en/full/1564972/cul-ps-stephaniebeatriz-banner.webp?w=767&h=512&q=90&f=23c2390415acdd886843352e067a3453"
+                                class="card-img" alt="">
+                            <div class="card-body px-0 py-2">
+                                <p class="card-title h5 bg-danger p-1 text-white btn">PERISCOPE</p>
+                                <p class="card-title h5 bg-white py-1 text-danger btn"><strong>CULTURE</strong></p>
+                                <p class="card-body p-0"><a class="card-link" href="#">Brooklyn Nine-Nine's
+                                        Stephanie
+                                        Beatriz Talks Being Bisexual and Latinx on Network TV</a>
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
 
-                <article>
-                    <div class="card border-0">
-                        <img src="https://d.newsweek.com/en/full/1564983/first-timer.jpg?w=480&h=320&q=90&f=a5962a1913afe8d66ac713777e30d2dd"
-                            class="card-img" alt="">
-                        <div class="card-body px-0 py-2">
-                            <p class="card-body p-0"><a class="card-link" href="#">FIRST TIMER</a></p>
+                    <article class="col-xl-3">
+                        <div class="card border-0">
+                            <img src="https://d.newsweek.com/en/full/1564972/cul-ps-stephaniebeatriz-banner.webp?w=767&h=512&q=90&f=23c2390415acdd886843352e067a3453"
+                                class="card-img" alt="">
+                            <div class="card-body px-0 py-2">
+                                <p class="card-title h5 bg-danger p-1 text-white btn">PERISCOPE</p>
+                                <p class="card-title h5 bg-white py-1 text-danger btn"><strong>CULTURE</strong></p>
+                                <p class="card-body p-0"><a class="card-link" href="#">Brooklyn Nine-Nine's
+                                        Stephanie
+                                        Beatriz Talks Being Bisexual and Latinx on Network TV</a>
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
+                </section>
 
             </div>
-        </section>
+
+        </div>
+
+
 
         <!-- Editor's Pick -->
         <section class="editors">
-            <div class="container px-4 mt-2">
 
-                <article>
-                    <div class="card border-0 mb-2">
-                        <p class="card-title text-center h5 mt-1"><strong>EDITOR'S PICK</strong></p>
-                        <hr class="bg-danger my-3">
-                        <img src="https://d.newsweek.com/en/full/1566032/buttigieg-sanders.webp?w=767&h=512&f=ff6c5b06e03ec5f44ae53298ed924035"
-                            class="card-img" alt="">
-                        <div class="card-body p-0">
-                            <p class="card-body p-0 h5"><a class="card-link h6" href="#"><strong>Buttigieg Surges 12
-                                        Points
-                                        In
-                                        New
-                                        Hampshire as Sanders
-                                        Still Leads: Poll</strong></a>
-                            </p>
-                            <p class="card-text">Senator Bernie Sanders is in the lead with 29 percent,
-                                followed
-                                by former
-                                South Bend, Indiana
-                                Mayor
-                                Pete Buttigieg at 25 percent, according to a CBS News poll.</p>
+            <div class="container-xl-12">
+                <p class="card-title text-center h5 mt-1"><strong>EDITOR'S PICK</strong></p>
+                <hr class="bg-danger my-3">
+                <div class="row">
+                    <article class="col-xl-3">
+                        <div class="card border-0 mb-2">
+                            <img src="https://d.newsweek.com/en/full/1566032/buttigieg-sanders.webp?w=767&h=512&f=ff6c5b06e03ec5f44ae53298ed924035"
+                                class="card-img" alt="">
+                            <div class="card-body p-0">
+                                <p class="card-body p-0 h5"><a class="card-link h6" href="#"><strong>Buttigieg
+                                            Surges 12
+                                            Points
+                                            In
+                                            New
+                                            Hampshire as Sanders
+                                            Still Leads: Poll</strong></a>
+                                </p>
+                                <p class="card-text">Senator Bernie Sanders is in the lead with 29 percent,
+                                    followed
+                                    by former
+                                    South Bend, Indiana
+                                    Mayor
+                                    Pete Buttigieg at 25 percent, according to a CBS News poll.</p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
 
-                <article>
-                    <div class="card border-0 mb-2">
-                        <img src="https://d.newsweek.com/en/full/1566006/oscar-statuette.webp?w=767&h=512&f=6fc88c4b814ea4ffc969035e736cf4c9"
-                            class="card-img" alt="">
-                        <div class="card-body px-0 py-0">
-                            <p class="card-body px-0 py-2 h5"><a class="card-link" href="#"><strong>Goody Bag For
-                                        Oscars
-                                        2020 Nominees Includes
-                                        12-Day Cruise And More</strong></a></p>
-                            <p class="card-text">This year's "Everyone Wins" gift bag, courtesy of Los Angeles-based
-                                niche marketing firm
-                                Distinctive
-                                Assets, is worth around $225,000.</p>
+                    <article class="col-xl-3">
+                        <div class="card border-0 mb-2">
+                            <img src="https://d.newsweek.com/en/full/1566006/oscar-statuette.webp?w=767&h=512&f=6fc88c4b814ea4ffc969035e736cf4c9"
+                                class="card-img" alt="">
+                            <div class="card-body px-0 py-0">
+                                <p class="card-body px-0 py-2 h5"><a class="card-link" href="#"><strong>Goody Bag
+                                            For
+                                            Oscars
+                                            2020 Nominees Includes
+                                            12-Day Cruise And More</strong></a></p>
+                                <p class="card-text">This year's "Everyone Wins" gift bag, courtesy of Los
+                                    Angeles-based
+                                    niche marketing firm
+                                    Distinctive
+                                    Assets, is worth around $225,000.</p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
 
-                <article>
-                    <div class="card border-0 mb-2">
-                        <img src="https://d.newsweek.com/en/full/1566011/tawny-nurse-shark-grazes-surface-talbot-bay.webp?w=767&h=512&f=c19a56ca04e14cbef9be874c37215abf"
-                            class="card-img" alt="">
-                        <div class="card-body px-0 py-0">
-                            <p class="card-body px-0 py-2 h5"><a href="#"><strong>Tawny Sharks Spotted 'Dancing' as
-                                        They
-                                        Wait for Dinner</strong></a></p>
-                            <p class="card-text">Footage shows 20 sharks as they wait for pipis to emerge from the
-                                sea
-                                on
-                                Torres Strait beach on
-                                Mer
-                                Island, Australia.</p>
+                    <article class="col-xl-3">
+                        <div class="card border-0 mb-2">
+                            <img src="https://d.newsweek.com/en/full/1566011/tawny-nurse-shark-grazes-surface-talbot-bay.webp?w=767&h=512&f=c19a56ca04e14cbef9be874c37215abf"
+                                class="card-img" alt="">
+                            <div class="card-body px-0 py-0">
+                                <p class="card-body px-0 py-2 h5"><a href="#"><strong>Tawny Sharks Spotted 'Dancing'
+                                            as
+                                            They
+                                            Wait for Dinner</strong></a></p>
+                                <p class="card-text">Footage shows 20 sharks as they wait for pipis to emerge from
+                                    the
+                                    sea
+                                    on
+                                    Torres Strait beach on
+                                    Mer
+                                    Island, Australia.</p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
 
-                <article>
-                    <div class="card border-0 mb-2">
-                        <img src="https://d.newsweek.com/en/full/1566052/brad-pitt.webp?w=767&h=512&f=90e2af11a40d29122bb215d2ac5fc6a1"
-                            class="card-img" alt="">
-                        <div class="card-body px-0 py-0">
-                            <p class="card-body px-0 py-2 h5"><a href="#"><strong>Brad Pitt Says His 45-Second Oscar
-                                        Speech
-                                        is 'More' Than John Bolton Got</strong></a></p>
-                            <p class="card-text">"They told me I only had 45 seconds, and that's 45 seconds more
-                                than
-                                the Senate gave John Bolton
-                                this
-                                week," Pitt said while giving his speech for winning Best Supporting Actor.</p>
+                    <article class="col-xl-3">
+                        <div class="card border-0 mb-2">
+                            <img src="https://d.newsweek.com/en/full/1566052/brad-pitt.webp?w=767&h=512&f=90e2af11a40d29122bb215d2ac5fc6a1"
+                                class="card-img" alt="">
+                            <div class="card-body px-0 py-0">
+                                <p class="card-body px-0 py-2 h5"><a href="#"><strong>Brad Pitt Says His 45-Second
+                                            Oscar
+                                            Speech
+                                            is 'More' Than John Bolton Got</strong></a></p>
+                                <p class="card-text">"They told me I only had 45 seconds, and that's 45 seconds more
+                                    than
+                                    the Senate gave John Bolton
+                                    this
+                                    week," Pitt said while giving his speech for winning Best Supporting Actor.</p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
 
-                <article>
-                    <div class="card border-0 mb-2">
-                        <img src="https://d.newsweek.com/en/full/1565967/donald-trump.webp?w=767&h=512&f=aab6a25b3d61adfdefc23d4131b208e1"
-                            class="card-img" alt="">
-                        <div class="card-body px-0 py-0">
-                            <p class="card-body px-0 py-2 h5"><a href="#"><strong>New York Republican Legislator
-                                        Switches
-                                        to the Democratic Party</strong></a></p>
-                            <p class="card-text">"I'm not trying to demonize Republicans. I'm just saying I feel
-                                more
-                                comfortable at the moment
-                                with
-                                the Democratic Party," David Tubiolo said.</p>
+                    <article class="col-xl-3">
+                        <div class="card border-0 mb-2">
+                            <img src="https://d.newsweek.com/en/full/1565967/donald-trump.webp?w=767&h=512&f=aab6a25b3d61adfdefc23d4131b208e1"
+                                class="card-img" alt="">
+                            <div class="card-body px-0 py-0">
+                                <p class="card-body px-0 py-2 h5"><a href="#"><strong>New York Republican Legislator
+                                            Switches
+                                            to the Democratic Party</strong></a></p>
+                                <p class="card-text">"I'm not trying to demonize Republicans. I'm just saying I feel
+                                    more
+                                    comfortable at the moment
+                                    with
+                                    the Democratic Party," David Tubiolo said.</p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
 
-                <article>
-                    <div class="card border-0 mb-2">
-                        <img src="https://d.newsweek.com/en/full/1565980/us-troops-nangarhar-afghanistan-war.webp?w=767&h=512&f=eaa8234a3f21c2bce868c8a9f0f8c8a3"
-                            class="card-img" alt="">
-                        <div class="card-body px-0 py-0">
-                            <p class="card-body px-0 py-2 h5"><a href="#"><strong>U.S. and Afghan Special Operations
-                                        Forces
-                                        Killed in Deadly Ambush</strong></a></p>
-                            <p class="card-text">Two U.S. and nine Afghan special operations forces soldiers are
-                                dead,
-                                with more wounded after a
-                                suspected green-on-blue attack in the Sherzad district of Nangarhar province, a U.S.
-                                official
-                                told
-                                Newsweek.</p>
+                    <article class="col-xl-3">
+                        <div class="card border-0 mb-2">
+                            <img src="https://d.newsweek.com/en/full/1565980/us-troops-nangarhar-afghanistan-war.webp?w=767&h=512&f=eaa8234a3f21c2bce868c8a9f0f8c8a3"
+                                class="card-img" alt="">
+                            <div class="card-body px-0 py-0">
+                                <p class="card-body px-0 py-2 h5"><a href="#"><strong>U.S. and Afghan Special
+                                            Operations
+                                            Forces
+                                            Killed in Deadly Ambush</strong></a></p>
+                                <p class="card-text">Two U.S. and nine Afghan special operations forces soldiers are
+                                    dead,
+                                    with more wounded after a
+                                    suspected green-on-blue attack in the Sherzad district of Nangarhar province, a
+                                    U.S.
+                                    official
+                                    told
+                                    Newsweek.</p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
 
-                <article>
-                    <div class="card border-0 mb-2">
-                        <img src="https://d.newsweek.com/en/full/1565975/alexander-vindman.webp?w=767&h=512&f=1b487647ef067bbd79a92a9304b0c836"
-                            class="card-img" alt="">
-                        <div class="card-body px-0 py-2">
-                            <p class="card-body px-0 py-2 h5"><a href="#"><strong>Trump Rails Against Impeachment
-                                        Witness
-                                        Vindman a Day After Ousting Him</strong></a></p>
-                            <p class="card-text">"Actually, I don't know him, never spoke to him, or met him (I
-                                don't
-                                believe!)," the
-                                president
-                                wrote
-                                of Vindman on Twitter.</p>
+                    <article class="col-xl-3">
+                        <div class="card border-0 mb-2">
+                            <img src="https://d.newsweek.com/en/full/1565975/alexander-vindman.webp?w=767&h=512&f=1b487647ef067bbd79a92a9304b0c836"
+                                class="card-img" alt="">
+                            <div class="card-body px-0 py-2">
+                                <p class="card-body px-0 py-2 h5"><a href="#"><strong>Trump Rails Against
+                                            Impeachment
+                                            Witness
+                                            Vindman a Day After Ousting Him</strong></a></p>
+                                <p class="card-text">"Actually, I don't know him, never spoke to him, or met him (I
+                                    don't
+                                    believe!)," the
+                                    president
+                                    wrote
+                                    of Vindman on Twitter.</p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
 
-                <article>
-                    <div class="card border-0 mb-2">
-                        <img src="https://d.newsweek.com/en/full/1566028/birds-prey-box-office.webp?w=767&h=512&f=7323caa91338e168e4c4777a343979d5"
-                            class="card-img" alt="">
-                        <div class="card-body px-0 py-0">
-                            <p class="card-body px-0 py-2 h5"><a href="#"><strong>'Birds of Prey' Falls Short of
-                                        Expectations with $33 Million Debut</strong></a></p>
-                            <p class="card-text">'Birds of Prey' falters in its debut weekend at the box office.
-                                Here
-                                are a few possible reasons
-                                why.
-                            </p>
+                    <article class="col-xl-3">
+                        <div class="card border-0 mb-2">
+                            <img src="https://d.newsweek.com/en/full/1566028/birds-prey-box-office.webp?w=767&h=512&f=7323caa91338e168e4c4777a343979d5"
+                                class="card-img" alt="">
+                            <div class="card-body px-0 py-0">
+                                <p class="card-body px-0 py-2 h5"><a href="#"><strong>'Birds of Prey' Falls Short of
+                                            Expectations with $33 Million Debut</strong></a></p>
+                                <p class="card-text">'Birds of Prey' falters in its debut weekend at the box office.
+                                    Here
+                                    are a few possible reasons
+                                    why.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </article>
-
+                    </article>
+                </div>
+            </div>
             </div>
         </section>
 

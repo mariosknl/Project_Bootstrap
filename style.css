@@ -23,16 +23,10 @@ header {
 }
 
 .middle {
-    height: 3000px;
+    height: 4000px;
 }
 
-.header-bottom{
-    height: 50px;
-}
 
-.card-title {
-    font-size: 16px;
-}
 
 p {
     font-size: 0.8rem;
