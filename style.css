@@ -18,15 +18,10 @@ a {
 /* End of Global Reset */
 
 /* Navbar Section */
-
-.nav-logo {
-    background: url('./images/logo.png') top top/cover no-repeat;
+.header-top {
+    height: 95px;
 }
 
-.container-xl nav {
-    background-color: #F72311;
-    height: 3.2rem;
-}
 
 
 .card-title {
