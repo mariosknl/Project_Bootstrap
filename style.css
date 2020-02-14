@@ -28,17 +28,17 @@ header {
 
 
 
-p {
-    font-size: 0.8rem;
+ p {
+    font-size: 0.9rem;
     
-}
+} 
 
-.travel h3 {
+/* .travel h3 {
     font-size: 1.1rem;
 }
 h3 a{
     font-size: 1.1rem;
-}
+} */
 
 .img-newsletter {
     background: url('https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5') center center/cover no-repeat;
