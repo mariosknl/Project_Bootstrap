@@ -17,6 +17,15 @@ a {
 
 /* End of Global Reset */
 
+.subscribe{
+    width: 750px;
+    height: 322px;
+}
+
+.card-img{
+    width: 260px;
+    height: 241px;
+}
 
 .img-newsletter {
     background: url('https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5') center center/cover no-repeat;
