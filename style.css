@@ -1,0 +1,22 @@
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: red;
+}
+
+/* End of Global Reset */
