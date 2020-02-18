@@ -4,4 +4,4 @@ linters:
 
 files:
   ignore:
-    - '*.png'
+    - 'images/*.png'
