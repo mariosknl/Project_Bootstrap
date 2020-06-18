@@ -14,6 +14,7 @@ Framework: Bootstrap 4
 
 [LIVE DEMO](https://raw.githack.com/mariosknl/Project_Bootstrap/feature-branch/index.html)
 
+# Authors
 👤 Marios Kanellopoulos
 - Github: [@mariosknl](https://github.com/mariosknl)
 - Twitter: [@mariosknl](https://twitter.com/MariosKnl)
