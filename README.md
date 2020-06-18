@@ -17,8 +17,10 @@ Framework: Bootstrap 4
 👤 Marios Kanellopoulos
 - Github: [@mariosknl](https://github.com/mariosknl)
 - Twitter: [@mariosknl](https://twitter.com/MariosKnl)
-- Linkedln: [marios-kanellopoulos](https://www.linkedin.com/in/marios-kanellopoulos-a99332181/)
-- [Mariosknl is available for hire!]
+- Linkedln: [marios-kanellopoulos](https://www.linkedin.com/in/marios-kanellopoulos)
+- Portfolio: [marios-kanellopoulos](https://marioskanellopoulos.com/)
+
+
 
 🤝 Contributing
 Contributions, issues and feature requests are welcome!
