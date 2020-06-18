@@ -4,7 +4,7 @@ This is a clone of Newsweek official webpage using Bootstrap 4 framework.
 
 ![Screenshot 2020-02-18 at 2 34 08 PM](https://user-images.githubusercontent.com/50610396/74736583-c80cb900-525b-11ea-9884-92b05635bf11.png)
 
-Built with
+# Built with
 
 Major languages : HTML5 & CSS3
 
@@ -23,18 +23,18 @@ Framework: Bootstrap 4
 
 
 
-🤝 Contributing
+# 🤝 Contributing
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the issues page.
 
-Show your support
+# Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
+# Acknowledgments
 - Inspiration [@melicastorena16](https://twitter.com/melicastorena16) Learned a lot by reading her article of Bootstrap 4. Thank you very much!
 
 - Inspiration [@Phalado](https://twitter.com/Phalado) Thank you for sharing your friend's article to me. It was really helpful.
 
-📝 License
+# 📝 License
 This project is MIT licensed.
