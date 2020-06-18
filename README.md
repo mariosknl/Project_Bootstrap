@@ -29,7 +29,7 @@ Show your support
 Give a ⭐️ if you like this project!
 
 Acknowledgments
-- Inspiration [@melicastorena16](https://twitter.com/melicastorena16) Learnt a lot by reading her article of Bootstrap 4. Thank you very much!
+- Inspiration [@melicastorena16](https://twitter.com/melicastorena16) Learned a lot by reading her article of Bootstrap 4. Thank you very much!
 
 - Inspiration [@Phalado](https://twitter.com/Phalado) Thank you for sharing your friend's article to me. It was really helpful.
 
